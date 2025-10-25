@@ -1,3 +1,11 @@
+¿Cuál es la diferencia entre autenticación y autorizacion?
+ Autenticación: Es el proceso de verificar la identidad del usuario (por ejemplo, validar usuario y contraseña).
+ Autorización: Es el proceso de determinar qué acciones o recursos puede acceder un usuario ya autenticado.
+
+¿Cuál es la función del token JWT en la guía?
+    JSON Web Token, se usa para mantener la sesión del usuario autenticado.
+    El servidor genera un token al iniciar sesión, y el cliente lo envía en cada solicitud posterior para demostrar su identidad sin necesidad de reenviar usuario y contraseña.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
